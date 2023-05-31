@@ -1,25 +1,59 @@
-# Simple NFT Indexer
+# NFT Indexer App
 
-This is an skeleton app that uses the Alchemy SDK rigged to Alchemy's Enhanced APIs in order to display all of an address's ERC-721 tokens, including a call to any `image` attached to their metadata.
+This repository contains a React application that fetches and displays all NFTs (Non-Fungible Tokens) owned by an Ethereum address. The application uses the Chakra UI for React and the Alchemy SDK to query blockchain data.
 
-## Set Up
+## Table of Contents
 
-1. Install dependencies by running `npm install`
-2. Start application by running `npm run dev`
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Built With](#built-with)
+- [License](#license)
 
-## Challenge
+## Getting Started
 
-Fork this repo and build out more features! This is minimalistic on purpose.
+To get a local copy up and running, follow these simple steps.
 
-We purposefully built this out to be a skeleton version of what can be the next big thing so that you can practice some software development! Here are a few challenge suggestions:
+### Prerequisites
 
-1. Add Wallet integration so that any user that connects their wallet can check see their NFTs in a flash!
-2. There is no indication of a request in progress... that's bad UX! Do you think you can add some sort of indication of loading?
-3. Add some styling! 🎨
-4. The NFT images can sometimes appear and sometimes not... can you think of ways to fix that?
-5. There is no error-checking for wrongly formed requests, or really any error checking of any kind... can you add some in?
-6. The images and grid display could look better... anything you can do about that?
-7. There are ways to make this app faster... can you implement some of them? How can the query be made _even_ quicker?
-8. Can you add ENS support for inputs?
-9. The code has no commenting... bruh! Clear documentation is a clear path for other developers to understand and build on your code... think you can add clear commenting?
-10. Completely open-ended!! Use this as the base for your next hackathon project, dream company or personal expedition :)
+- You must have Node.js and npm installed. You can check whether you have Node and npm installed by running the following commands in your terminal:
+
+  ```bash
+  node -v
+  npm -v
+  ```
+
+  If you have not installed Node.js and npm, you can download and install them from this [link](https://nodejs.org/).
+
+### Installation
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+
+2. Install NPM packages:
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+To start the development server, run the following command in your terminal:
+
+```bash
+npm start
+```
+
+Once the development server is up and running, open a browser and go to http://localhost:3000. Enter any Ethereum address in the input field and click on the "Fetch NFTs" button to get all ERC-721 tokens of the entered address.
+
+## Built With
+
+- [React](https://reactjs.org/)
+- [Chakra UI](https://chakra-ui.com/)
+- [Alchemy SDK](https://www.alchemy.com/)
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
